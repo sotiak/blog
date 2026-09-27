@@ -1,5 +1,6 @@
 @import "tailwindcss";
-@config "../../tailwind.config.mts";
+@plugin "@tailwindcss/typography";
+@custom-variant dark (&:where(.dark, .dark *));
 
 /* Keep tokens close so new styles extend the system before adding one-offs. */
 @theme {
