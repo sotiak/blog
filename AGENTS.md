@@ -4,7 +4,7 @@
 
 - Astro 6: Frontend, small APIs, build system
 - TypeScript 6
-- Tailwind CSS: UI (bit of 98.css)
+- Tailwind CSS: UI
 
 **Development**
 

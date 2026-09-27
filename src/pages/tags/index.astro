@@ -35,21 +35,17 @@ const meta = {
   <Container>
     <div class="mt-10" data-pagefind-ignore="all">
       <h1 class="sr-only">Tags</h1>
-      <div class="space-y-4">
-        <section class="space-y-4">
-          <ul
-            class="grid list-none grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-4"
-          >
-            {
-              tags.map((tag) => (
-                <li>
-                  <Tag tag={tag.slug} count={tag.count} />
-                </li>
-              ))
-            }
-          </ul>
-        </section>
-      </div>
+      <ul
+        class="grid list-none grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-4"
+      >
+        {
+          tags.map((tag) => (
+            <li>
+              <Tag tag={tag.slug} count={tag.count} />
+            </li>
+          ))
+        }
+      </ul>
     </div>
   </Container>
 </Layout>
