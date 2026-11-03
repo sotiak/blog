@@ -20,7 +20,7 @@ jobs:
     timeout-minutes: 10
     if: >-
       github.event.pull_request.user.login == 'dependabot[bot]' &&
-      github.repository == 'shiomiyan/blog' &&
+      github.repository == 'sotiak/blog' &&
       github.event.pull_request.draft == false
     steps:
       - name: Fetch Dependabot metadata
