@@ -48,7 +48,7 @@
     "prettier-plugin-tailwindcss": "^0.8.1",
     "rehype-external-links": "^3.0.0",
     "tailwindcss": "^4.3.5",
-    "textlint": "^15.8.0",
+    "textlint": "^16.1.1",
     "textlint-filter-rule-allowlist": "^4.0.0",
     "textlint-rule-preset-ja-technical-writing": "^12.0.2",
     "tsx": "^4.23.15",
